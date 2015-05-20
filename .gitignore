@@ -5,3 +5,5 @@
 npm-debug.log
 .idea
 node_modules
+test/test.pdf
+vendor/*

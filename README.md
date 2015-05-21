@@ -1,5 +1,5 @@
 #wkhtmltopdf-installer
-![Build Status](https://travis-ci.org/pofider/node-wkhtmltopdf-installer.svg?branch=master)
+[![Build Status](https://travis-ci.org/pofider/node-wkhtmltopdf-installer.svg?branch=master)](https://travis-ci.org/pofider/node-wkhtmltopdf-installer)
 
 > npm install wkhtmltopdf-installer
 

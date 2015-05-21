@@ -6,3 +6,4 @@ var bin = require('./lib');
 
 module.exports.path = bin.path();
 module.exports.version = bin.v;
+module.exports.bin = bin;

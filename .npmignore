@@ -4,4 +4,4 @@ node_modules
 test/test.pdf
 
 vendor/*
-/lib/location.js
+downloads

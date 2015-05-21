@@ -7,7 +7,11 @@ var childProcess = require('child_process');
 var fs = require('fs');
 var path = require('path');
 var htmltopdf = require('../');
+var bin = require('../lib');
 
+exports.setUp = function(callback) {
+  bin.download(callback);
+};
 
 exports.testDownload = function (test) {
   test.expect(1);

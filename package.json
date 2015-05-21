@@ -1,38 +1,25 @@
 {
-  "name": "phantomjs",
-  "version": "1.9.7-15",
+  "name": "wkhtmltopdf-installer",
+  "version": "0.1.0",
   "keywords": [
-    "phantomjs",
-    "headless",
-    "webkit"
+    "wkhtmltopdf",
+    "installer"
   ],
-  "description": "Headless WebKit with JS API",
-  "homepage": "https://github.com/Obvious/phantomjs",
+  "description": "Downloads and installs wkhtmltopdf",
+  "homepage": "https://github.com/pofider/node-wkhtmltopdf-installer",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Obvious/phantomjs.git"
+    "url": "git://github.com/pofider/node-wkhtmltopdf-installer.git"
   },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
+  "license": "MIT",
   "author": {
-    "name": "Dan Pupius",
-    "email": "dan@obvious.com",
-    "url": "http://pupius.co.uk"
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com",
+    "url": "http://janblaha.net"
   },
-  "maintainers": [
-    {
-      "name": "Dan Pupius",
-      "email": "dan@obvious.com",
-      "web": "http://pupius.co.uk/"
-    }
-  ],
   "main": "index.js",
   "bin": {
-    "phantomjs": "./bin/phantomjs"
+    "wkhtmltopdf": "./bin/wkhtmltopdf"
   },
   "scripts": {
     "postinstall": "node lib/install.js",

@@ -25,7 +25,7 @@ exports.testHtmlToPdfTransformation = function (test) {
 
   var childArgs = [
     path.join(__dirname, "test.html"),
-    path.join(__dirname, "test.pdf"),
+    path.join(__dirname, "test.pdf")
   ];
 
   childProcess.execFile(htmltopdf.bin.localPath(), childArgs, function (err, stederr, stdout) {

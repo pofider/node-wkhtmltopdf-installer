@@ -26,9 +26,9 @@
     "test": "nodeunit test/tests.js"
   },
   "dependencies": {
-    "bin-wrapper": "1.0.1",
-    "log-symbols": "1.0.0",
-    "which": "1.1.1"
+    "bin-wrapper": "3.0.2",
+    "log-symbols": "1.0.2",
+    "which": "1.2.1"
   },
   "devDependencies": {
     "nodeunit": "~0.9.1"

@@ -32,5 +32,10 @@
   },
   "devDependencies": {
     "nodeunit": "~0.9.1"
-  }
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js"
+  ]
 }

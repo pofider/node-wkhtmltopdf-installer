@@ -43,6 +43,9 @@ exports.testBinFile = function (test) {
   var binPath = htmltopdf.bin.localPath();
 
   childProcess.execFile(binPath, ['--version'], function (err, stdout, stderr) {
+    console.log(err);
+    console.log(stdout);
+    console.log(stderr);
     test.ok(stdout.trim().indexOf(htmltopdf.version) > -1, 'Version should be match');
     test.done();
   });

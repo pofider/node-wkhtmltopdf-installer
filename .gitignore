@@ -2,6 +2,7 @@ node_modules
 
 .idea
 test/test.pdf
+.DS_Store
 
 vendor/*
 /lib/location.js
